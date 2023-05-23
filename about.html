@@ -5,30 +5,38 @@
         <link rel="stylesheet" href="estilos.css">
     </head>
     <body> 
-        <div class="container-nav">
-            <nav class="navbar" role="navigation">
-                <a href="inicio.html" class="brand">Inicio</a>
+        <header>
+          <div class="container-nav">
+             <nav class="navbar" role="navigation">
+                <a href="index.html.html" class="brand">Inicio</a>
                 <ul class="nav-links">
                 <li><a href="about.html">"Acerca de"</a></li>
-            <li><a href="services.html">Servicios</a></li>
-            <li><a href="contact.html">Contacto</a></li>
-            </ul>
-            </nav>
-            <button class="button-menu-toggle">Menu</button>
-        </div>
-        <div class="container">
-            <h1>"Acerca de"</h1>
-            <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre
-            nuestra empresa y los servicios que ofrecemos.</p>
+             <li><a href="services.html">Servicios</a></li>
+             <li><a href="contact.html">Contacto</a></li>
+             </ul>
+             </nav>
+             <button class="button-menu-toggle">Menu</button>
+          </div>
+        </header>
+        <main>
+            <div class="greeting">
+                <p>Enterate aqui mas sobre nosotros!</p>
+            </div>
+          <div class="container">
+             <h1>"Acerca de"</h1>
+             <p>¡Bienvenido a nuestra página “Acerca de”! Aquí, aprenderás más sobre
+             nuestra empresa y los servicios que ofrecemos.</p>
+          </div>
             <div class="img">
                <img src="img/imagen1.jfif" alt="Descripción de la imagen 1" width="500 px" />
                <img src="img/imagen2.jfif" alt="Descripción de la imagen 2" width="500 px"/>
                <img src="img/imagen3.jfif" alt="Descripción de la imagen 3" width="500 px"/>
             </div>
-          </ul>
-              </div>
-            </div>
-        </div>
+        </main>
+        <footer>
+            <button onClick="showAlert()" aria-label="Dispara una alerta de saludo">¡Haz
+                clic en mí!</button>
+        </footer>
         <script src="script.js"></script>
     </body>
 </html>
